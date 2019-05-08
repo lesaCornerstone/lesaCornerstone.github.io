@@ -285,6 +285,11 @@ input:focus, textarea:focus {
 	float: left;
 	color: #fff;
 }
+.map_column iframe {
+	display: block;
+	width: 100%;
+	height: 350px;
+}
 .copyright {
 	text-align: center;
 	padding-top: 20px;
@@ -341,6 +346,7 @@ nav ul li {
 .services_column {
 	width: 100%;
 	text-align: center;
+	padding-top: 140px;
 }
 .adminButton {
 	width: 270px;
@@ -407,6 +413,11 @@ input, textarea {
 .map_column {
 	float:none;
 	text-align: center;
+}
+.map_column iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 
@@ -513,11 +524,25 @@ nav ul li {
 	font-size: 18px;
 }
 .contact_column {
-	overflow: hidden;
-	margin-left: 5%;
+	float:none;
+}
+label {
+	text-align: center;
+}
+input, textarea {
+	width:80%;
+}
+#submit {
+	width: auto;
 }
 .map_column {
-	overflow: hidden;
+	float:none;
+	text-align: center;
+}
+.map_column iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 

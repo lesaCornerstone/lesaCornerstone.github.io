@@ -113,30 +113,7 @@
   <section class="footer">
 	<span class="contact_column">
 		<h2  id="contact">Contact Us</h2>
-		<!--<?php
-			$name = $_POST['name'];
-			$org = $_POST['org'];
-			$email = $_POST['email'];
-			$msg = $POST['msg'];
-			$from = 'From: Site Contact';
-			$to = 'lesa@epiphanybaltimore.org';
-			$subject = 'Site Inquiry';
-
-			$body = "From: $name at $org\n email: $email\n Message:\n $message";
-
-			if ($_POST['submit']) {
-				if ($name != '' && $email != '' && $msg != ''){
-					if (mail ($to, $subject, $body, $from)) { 
-					echo '<p>Thank you, your message has been sent!</p>';
-					} else { 
-						echo '<p>Something went wrong, please try again!</p>'; 
-					}
-				} else {
-					echo '<p>Please fill in all required fields before submitting.</p>';
-				}
-			}
-		?> -->
-		<form method="post" action="index.php">
+		<form method="get" action="mailto:lesa@epiphanybaltimore.org" enctype="text/plain">
 			<label>Name</label>
 			<input name="name"/>
 			<br/>
