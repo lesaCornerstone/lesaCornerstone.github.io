@@ -16,6 +16,13 @@ body {
 	margin-right: auto;
 	background-color: #FFFFFF;
 }
+a {
+	color: #B6D6CC;
+	text-decoration: none;
+}
+p:hover a {
+	color: #D65C28;
+}
 /* Navigation */
 header {
 	position: fixed;
@@ -166,7 +173,7 @@ h2::before{
 	background-repeat: no-repeat;
 }
 .commBanner {
-	border-top: 1px solid #635C51;
+	border-top: 10px solid #fff;
 	background-color: #fff;
 	background-image: url("../images/commBanner.png");
 	height: 400px;
@@ -175,7 +182,7 @@ h2::before{
 	background-repeat: no-repeat;
 }
 .financeBanner {
-	border-top: 1px solid #635C51;
+	border-top: 10px solid #fff;
 	background-color: #fff;
 	background-image: url("../images/financeBanner.png");
 	height: 400px;
@@ -184,7 +191,7 @@ h2::before{
 	background-repeat: no-repeat;
 }
 .otherBanner {
-	border-top: 1px solid #635C51;
+	border-top: 10px solid #fff;
 	background-color: #fff;
 	background-image: url("../images/otherBanner.png");
 	height: 400px;
@@ -258,6 +265,7 @@ input:focus, textarea:focus {
 }
 #submit {
 	width: 100%;
+	height: auto;
 	margin-top: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -301,7 +309,7 @@ input:focus, textarea:focus {
 	letter-spacing: 2px;
 }
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 500px) {
 .container {
 	width: 100%;
 	background: #fff;
@@ -334,7 +342,7 @@ nav ul li {
 	top: 85px;
 	float: none;
 	text-align: center;
-	padding-top: 175px;
+	padding-top: 60%;
 	padding-left: 0px;
 	color: #635c51;
 	font-weight: normal;
@@ -385,12 +393,26 @@ nav ul li {
 	text-align: justify;
 	padding:5px;
 }
+.adminBanner {
+	background-attachment: scroll;
+}
+.commBanner {	
+	background-attachment: scroll;
+}
+.financeBanner {		
+	background-attachment: scroll;
+}
+.otherBanner {	
+	background-attachment: scroll;
+}
 .parallax {
-	text-align: left;
-	width: 80%;
+	text-align: justify;
+	padding: 0px;
+	padding-left: 25px;
+	padding-right: 15px;
+	width: 93%;
 	font-size: 14px;
 	line-height: 16px;
-	padding-bottom: 0px;
 }
 .parallax h2 {
 	font-size: 18px;
@@ -408,7 +430,7 @@ input, textarea {
 	width:80%;
 }
 #submit {
-	width: auto;
+	width: 60%;
 }
 .map_column {
 	float:none;
@@ -422,7 +444,7 @@ input, textarea {
 }
 
 /* Small Tablets */
-@media (min-width: 321px)and (max-width: 767px) {
+@media (min-width: 500px)and (max-width: 767px) {
 .container {
 	height: 375px;
 }
@@ -511,6 +533,18 @@ nav ul li {
 	width: 100%;
 	margin-top: 0px;
 }
+.adminBanner {		
+	background-attachment: scroll;
+}
+.commBanner {		
+	background-attachment: scroll;
+}
+.financeBanner {		
+	background-attachment: scroll;
+}
+.otherBanner {		
+	background-attachment: scroll;
+}
 .parallax {
 	line-height: 16px;
 	width: 50%;
@@ -533,7 +567,7 @@ input, textarea {
 	width:80%;
 }
 #submit {
-	width: auto;
+	width: 60%;
 }
 .map_column {
 	float:none;
@@ -592,6 +626,7 @@ nav ul li {
 }
 .parallax {
 	font-size: 14px;
+	width: 40%;
 }
 .parallax h2 {
 	font-size: 24px;
