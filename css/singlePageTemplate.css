@@ -51,7 +51,7 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #D65C28;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: left;
 	margin-left: 20px;
 	font-weight: bold;
@@ -89,7 +89,7 @@ h2::before{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 24px;
-	top: 95px;
+	top: 105px;
 	left: 3%
 }
 /* About Section */
@@ -347,11 +347,11 @@ nav ul li {
 	padding-bottom: 8px;
 }
 .hero {
-	padding-top: 200px;
+	padding-top: 240px;
 	height: inherit;
 }
 .tagline {
-	top: 200px;
+	top: 240px;
 	float: none;
 	text-align: center;
 	padding-top: 60%;
@@ -491,10 +491,10 @@ nav ul li {
 	padding-bottom: 8px;
 }
 .hero {
-	padding-top: 220px;
+	padding-top: 230px;
 }
 .tagline {
-	top: 230px;
+	top: 240px;
 	font-size: 14px;
 }
 .about {
