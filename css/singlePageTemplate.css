@@ -309,7 +309,7 @@ input:focus, textarea:focus {
 	letter-spacing: 2px;
 }
 /* Mobile */
-@media (max-width: 500px) {
+@media (max-width: 500px), (hover:none), (hover:on-demand) {
 .logo {
 	float: none;
 	padding: 0px;
